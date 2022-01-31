@@ -20,10 +20,10 @@ Automobile = {                                               #dict has two key v
                         }
              }
 for d in Automobile['store1']['parts']:
-    print(d['name'])
+    print(d['name'])                                        #cylinder,piston ,crank
 for d in Automobile . get('store1').get('parts') :
     if d['name'] == 'crank':
-        print(d['quantity'])
+        print(d['quantity'])                                #4
 for f in Automobile['store2']['parts']:
      if f['name'] == 'ferrari':
-            print (list(f.values()))
+            print (list(f.values()))                       #['ferrari' : '300hp']
